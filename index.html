@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipes: your no1 recipe guide</title>
+
+    <!-- main styles -->
+    <link rel="stylesheet" href="./styles/index.css" />
+
+    <style>
+      .recipes-menu-header {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .recipes-wrapper {
+        width: 80%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+
+      .recipe {
+        width: 32%;
+        margin-bottom: 25px;
+      }
+
+      .recipe-image {
+        width: 100%;
+        height: 150px;
+        border-radius: 5px;
+      }
+
+      .recipe-title {
+        margin: 10px 0 4px;
+      }
+
+      footer {
+        color: white;
+      }
+
+      footer a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="parent-wrapper">
+      <nav class="navbar">
+        <section style="display: flex; gap: 50px; align-items: center">
+          <div class="brand-logo">
+            <img src="./assets/logo.svg" alt="brand-logo" />
+          </div>
+          <ul id="nav-links-wrapper">
+            <a href="#">
+              <li class="nav-links">Home</li>
+            </a>
+            <a href="#">
+              <li class="nav-links">About</li>
+            </a>
+            <a href="#">
+              <li class="nav-links">Tags</li>
+            </a>
+            <a href="#">
+              <li class="nav-links">Recipes</li>
+            </a>
+          </ul>
+        </section>
+        <div class="contact-button-wrapper">
+          <button
+            style="
+              background-color: blue;
+              border-radius: 4px;
+              padding: 7px 15px;
+              font-size: 1rem;
+              color: white;
+              font-weight: bold;
+              border: none;
+              display: flex;
+              align-items: center;
+            "
+          >
+            Contact
+          </button>
+        </div>
+      </nav>
+      <div class="hero-banner">
+        <div style="text-align: center">
+          <h1 style="font-size: 45px; margin-bottom: 10px">Simply Recipes</h1>
+          <span style="font-size: 20px">No Fluff, Just Recipes</span>
+        </div>
+      </div>
+      <section style="width: 100%; display: flex">
+        <aside style="width: 20%">
+          <nav class="recipes-menu">
+            <h1 class="recipes-menu-header">Recipes</h1>
+            <ul style="list-style-type: none">
+              <a href="#"> <li>Beef (1)</li> </a
+              ><a href="#"> <li>Breakfast (2)</li> </a
+              ><a href="#"> <li>Carrots (3)</li> </a
+              ><a href="#"> <li>Food (4)</li> </a>
+            </ul>
+          </nav>
+        </aside>
+        <section class="recipes-wrapper">
+          <div class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              alt="recipe-image"
+              class="recipe-image"
+            />
+            <h3 class="recipe-title">Carne Asada</h3>
+            <span style="color: grey"
+              >Prep : 15min &nbsp;| &nbsp;Cook : 5min</span
+            >
+          </div>
+          <div class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              alt="recipe-image"
+              class="recipe-image"
+            />
+            <h3 class="recipe-title">Greek Ribs</h3>
+            <span style="color: grey"
+              >Prep : 15min &nbsp;| &nbsp;Cook : 5min</span
+            >
+          </div>
+          <div class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              alt="recipe-image"
+              class="recipe-image"
+            />
+            <h3 class="recipe-title">Vegetable Soup</h3>
+            <span style="color: grey"
+              >Prep : 15min &nbsp;| &nbsp;Cook : 5min</span
+            >
+          </div>
+          <div class="recipe">
+            <img
+              src="./assets/recipes/recipe-4.jpeg"
+              alt="recipe-image"
+              class="recipe-image"
+            />
+            <h3 class="recipe-title">Banana Pancakes</h3>
+            <span style="color: grey"
+              >Prep : 15min &nbsp;| &nbsp;Cook : 5min</span
+            >
+          </div>
+        </section>
+      </section>
+    </main>
+    <footer
+      style="
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #222;
+        padding: 25px;
+      "
+    >
+      &copy;2022&nbsp;<a href="#"><span>SimplyRecipes </span></a>&nbsp;<span
+        >Built by&nbsp;
+      </span>
+      <a href="./first-page.html"><span>Budding Sensations</span></a>
+    </footer>
+  </body>
+</html>
