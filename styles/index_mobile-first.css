@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.brand-logo img {
+  width: 150px;
+  height: 60px;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-btn {
+  background-color: blue;
+  border-radius: 4px;
+  padding: 7px 15px;
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+  border: none;
+  display: flex;
+  align-items: center;
+}
+
+.contact-button-wrapper {
+  margin-top: 20px;
+}
+
+.parent-wrapper {
+  padding: 0 15px;
+}
+
+.hero-banner {
+  background-image: url('../assets/main.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-blend-mode: overlay;
+  height: 250px;
+  width: 100%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.recipes-menu {
+  margin-bottom: 50px;
+}
+
+.recipes-menu-header {
+  font-size: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.recipes-menu ul a {
+  color: grey;
+}
+
+.recipes-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe {
+  margin-bottom: 25px;
+}
+
+.recipe img {
+  width: 100%;
+  border-radius: 7px;
+  margin-bottom: 12px;
+}
+
+.recipe h3 {
+  width: 100%;
+  border-radius: 7px;
+  margin-bottom: 5px;
+}
+
+footer {
+  justify-content: center;
+  background-color: black;
+  margin-top: 70px;
+  font-size: 10px;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  display: flex;
+}
+
+footer a {
+  display: inline-block;
+}
